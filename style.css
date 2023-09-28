@@ -1,0 +1,104 @@
+/* RESET CSS */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* FIM RESET CSS */
+
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   
+}
+
+.acesso{
+    background-color: white;
+    border: rgba(0, 0, 0, 0.61) 2px solid;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px 7px rgba(0, 0, 0, 0.062);
+    margin-top: 3%;
+    width: 45%;
+    height: 50vh;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8%;
+    color: rgb(0, 0, 0);
+    
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+#cartao{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    height: 32px;
+    text-align: center;
+}
+
+.formulario{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: 41%;
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#cartao:focus{
+    background-color: rgba(169, 169, 169, 0.322);
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+#resultado{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    margin-top: 6%
+    
+}
